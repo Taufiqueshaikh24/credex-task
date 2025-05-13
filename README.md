@@ -1,54 +1,52 @@
 # Softsell Project
 
-**Softsell** is a modern web application built using [Next.js](https://nextjs.org), with performance and user experience at its core. The project uses advanced animation with [GSAP](https://gsap.com/), automatic font optimization, and effortless deployment through Vercel. It's ideal for beginners learning how to build and deploy interactive and optimized web applications.
+**Softsell** is a modern web application built using [Next.js](https://nextjs.org), designed for speed, SEO optimization, and smooth user experience. The project includes advanced animations powered by [GSAP](https://gsap.com/), SEO metadata (Open Graph & meta tags), optimized fonts, and clean deployment via [Vercel](https://vercel.com).
 
 ---
 
 ## ✨ Features
 
-### 1. **Next.js Setup**
+### ✅ Next.js Setup
 - Bootstrapped using `create-next-app`.
-- Development server with live reloading (`npm run dev`, `yarn dev`, etc.).
-- Modern app directory structure (`app/`), optimized for scalability.
+- File-system based routing with the new `app/` directory.
+- Optimized rendering: SSR, SSG, and client-side rendering where needed.
 
-### 2. **Font Optimization**
-- Uses the **Geist** font with the `next/font` module.
-- Automatically optimized for performance and visual consistency.
+### ✅ Font Optimization
+- Uses [Geist](https://vercel.com/font) with `next/font` for performance.
+- No layout shift and seamless loading.
 
-### 3. **GSAP Animations**
-- Integrated [GSAP (GreenSock Animation Platform)](https://gsap.com/) for smooth and powerful animations.
-- Used for scroll-based animations, reveal effects, and interactive transitions.
+### ✅ GSAP Animations
+- Integrated GSAP for rich animations and scroll-based interactions.
+- Animations are performance-optimized and highly customizable.
 
-### 4. **Deployment on Vercel**
-- Easily deploy your application using [Vercel](https://vercel.com).
-- Zero-config deployment with CDN edge caching and automatic scaling.
+### ✅ SEO & Social Media Optimization
+- Open Graph (`og:title`, `og:image`, `og:description`, etc.) and `meta` tags configured.
+- SEO-friendly titles, descriptions, and preview images for better search visibility.
+- Supports Twitter Cards and link previews for platforms like Facebook, LinkedIn, and WhatsApp.
 
-### 5. **Learning Resources & Documentation**
-- Links to the official Next.js documentation and tutorial for easy onboarding.
+### ✅ Favicons & Branding
+- Fully integrated favicons for all major platforms and devices.
+- Includes `apple-touch-icon`, `favicon.ico`, and proper manifest for PWA support.
+
+### ✅ Deployment on Vercel
+- Instant preview deployments with Git integration.
+- Global CDN, auto-scaling, and zero-config deployment.
 
 ---
 
 ## 🎨 Design Choices
 
-### ✅ **Next.js**
-- Chosen for its hybrid rendering model (SSR, SSG).
-- Built-in performance optimizations (automatic static optimization, image optimization, etc.).
-- File-based routing makes navigation logic straightforward.
-
-### ✅ **Geist Font**
-- Clean, modern typography.
-- Loaded via `next/font` to reduce layout shifts and enhance performance.
-
-### ✅ **GSAP Animations**
-- GSAP was chosen for its performance and flexibility in handling complex animations.
-- Enables scroll-triggered sections, motion effects, and timeline-based sequences.
-
-### ✅ **Vercel Deployment**
-- Tight integration with Next.js.
-- Instant preview URLs and Git-based deployment workflow.
-- Ideal for projects needing global scale and fast delivery.
+| Category             | Technology / Reason                                                                 |
+|----------------------|--------------------------------------------------------------------------------------|
+| Framework            | **Next.js** for full-stack capabilities, SEO support, and performance.              |
+| Fonts                | **Geist** via `next/font` to reduce CLS and improve loading.                        |
+| Animation            | **GSAP** for scroll animations and timeline control.                                |
+| SEO & Social Sharing | **Open Graph & meta tags** to improve discoverability and link previews.            |
+| Icons                | Favicon, touch icons, and manifest files for branding and device compatibility.     |
+| Deployment           | **Vercel** for fast, scalable hosting with tight Next.js integration.               |
 
 ---
+
 ## Getting Started
 
 To get started with the project locally, follow these steps:
